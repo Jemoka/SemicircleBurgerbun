@@ -8,9 +8,13 @@ max_range <- 30
 tracefunc <- function(x) {
     sqrt(3*x**2+12)
 }
+#crossfunc <- function(x, y_range) {
+    #rad <- tracefunc(x)/2
+    #sapply(y_range, (function (x) sqrt(rad**2-(x-rad)**2)))
+#}
 crossfunc <- function(x, y_range) {
-    rad <- tracefunc(x)/2
-    sapply(y_range, (function (x) sqrt(rad**2-(x-rad)**2)))
+    #rad <- tracefunc(x)/2
+    sapply(y_range, (function (y) x*y))
 }
 
 xass <- c(0:(max_range/step_size)*step_size)

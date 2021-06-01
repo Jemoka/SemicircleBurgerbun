@@ -1,8 +1,8 @@
 library("tidyverse")
 library("plotly")
 
-step_size <- 0.01
-semicircle_fidelity <- 0.001
+step_size <- 0.1
+semicircle_fidelity <- 0.01
 max_rg <- 9
 
 xass <- c(0:(max_rg/step_size)*step_size)

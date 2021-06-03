@@ -1,0 +1,10 @@
+fill_shape: false
+step_size: 0.5
+crosssection_fidelity: 0.1
+max_range: 30
+tracefunc:
+    - sqrt(3*x**2+12)
+crossfunc:
+    - rad <- tracefunc(x)/2
+    - sapply(y_range, (function (x) sqrt(rad**2-(x-rad)**2)))
+

@@ -18,7 +18,7 @@ tracefunc <- function(x) {
 }
 
 # crossfunc
-# This is the function that controlls which 
+# This is the function that controls which 
 # type of crossection to use. The function gets passed 
 # a value x, representing the x-axis value at which the 
 # slice resides (we are slicing perpendicularly to the

@@ -26,11 +26,6 @@ tracefunc <- function(x) {
 # return a vector of z-values corresponding to each point
 # on the (x, y_i) values as matched to the y_range input 
 # vector.
-#
-# Also, a series of built-in slice shapes are provided as 
-# seperate functions that you could call and simply pass 
-# the parameters in. Feel free to uncomment those in 
-# as you see fit.
 
 crossfunc <- function(x, y_range) {
     crossfunc_semicircle(x, y_range)
@@ -67,5 +62,5 @@ step_size <- 0.5
 # more precise shapes like circles would be. However, this would
 # obviously make the code run longer the smaller this value is.
 
-crosssection_fidelity <- 0.1
+crosssection_fidelity <- 0.001
 

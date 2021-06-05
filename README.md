@@ -1,4 +1,4 @@
-# 3D-Crosssection Generation 
+# 3D Cross-section Generation 
 A R script to generate cross-sectional slicing visualizations of functions bounded by the x and y axis.
 
 ![Slicing!](./slicing.png)
